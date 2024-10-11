@@ -1,5 +1,22 @@
-h2 {
-    font-size: 60px;
+header {
+    font-family: "Roboto", sans-serif;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+a, a:visited a:focus {
+    text-decoration: none;
+    color: greenyellow;
+}
+
+a:hover {
+    color: blue;
+    cursor: crosshair;
 }
 
 .test {
